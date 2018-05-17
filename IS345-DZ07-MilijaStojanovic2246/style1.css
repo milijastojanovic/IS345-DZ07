@@ -1,0 +1,42 @@
+body { /* sredjivanje svega sto se nalazi u tagu body */
+	width:800px; /* sirina u pikselima */
+	margin:auto; /* centrira prostor na sredinu ekrana */
+	font-family:"Verdana"; /* vrsta fonta teksta u body-ju */
+}
+
+#divx{ /* sredjuje sve sto se nalazi u okviru id="divx" */
+	background-color:#ccffdd; /* pozadinska boja */
+	border: 1px solid; /* debljina i stil okvira */
+	border-radius:25px; /* raius zaobljenja na krajevima okvira */
+	padding: 8px; /* udaljava prostor unutar okvira u pikselima */
+	margin: 8px; /* udaljava prostor izvan okvira u pikselima */
+}
+
+#naslov{
+	background-color:#66ff99;
+	text-align: center; /* centrira sve */
+	border: 1px solid;
+	border-radius:25px;
+	padding: 8px;
+	margin: 8px;
+}
+
+#tekst{
+	font-size:24px; /* velicina fonta */
+	color:#ff0000; /* boja fonta */
+}
+
+p, ul{
+	font-size:18px;
+}
+
+
+h1{
+	color:#cc0000;
+	font-size:48px;
+}
+
+h2{
+	font-size:28px;
+	color:#006600;
+}

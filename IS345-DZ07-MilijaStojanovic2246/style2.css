@@ -1,0 +1,35 @@
+body {
+	margin:8px;
+	padding:8px;
+	margin-left:15%; /* udaljava spoljasnji prostor levo od okvira u procentima */
+	margin-right:35%; /* udaljava spoljasnji prostor desno od okvira u procentima */
+	font-family:"Josefin Sans", Open Sans, sans-serif;
+	border:1px solid red; /* debljina stil i boja okvira */
+}
+
+#naslov{
+	text-align:center;
+}
+
+h1{
+	font-size:24px;
+	color:red;
+	font-style:italic; /* stil fonta */ 
+}
+
+h2{
+	font-size:18px;
+	color:red;
+	font-style:italic;
+}
+
+#tekst{
+	font-size:14px;
+	color:#464646;
+	font-weight:bold;
+}
+
+p, ul{
+	font-size:12px;
+	color:#666666;
+}

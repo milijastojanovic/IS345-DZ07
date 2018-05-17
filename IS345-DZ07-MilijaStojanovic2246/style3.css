@@ -1,0 +1,66 @@
+body {
+	width:1380px;
+	margin:auto;
+	background-color:#e6ffff;
+	font-family:"Arial";
+}
+
+#naslov{
+	background-color:#ccd9ff;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+	border: 2px solid #0052cc;
+	border-radius:10px;
+}
+
+#div2, #div3{
+	background-color:#ccd9ff;
+	width:23%; /* sirina izabranih elemanata u procentima */
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #0052cc;
+	border-radius:10px;
+	float: left; /* izabrani elementi bi trebalo da idu u levu stranu u prostora */
+}
+
+#div4{
+	background-color:#ccd9ff;
+	width:330px;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #0052cc;
+	border-radius:10px;
+	float: left;
+}
+
+#div5{
+	background-color:#ccd9ff;
+	width:23%;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #0052cc;
+	border-radius:10px;
+	float: right; /* izabrani elementi bi trebalo da idu u desnu stranu u prostora */
+}
+
+h1{
+	font-size:38px;
+	color:orange;
+}
+
+h2{
+	font-size:30px;
+	color:orange;
+}
+
+p, ul{
+	font-size:18px;
+}
+
+
+#tekst{
+	font-size:22px;
+	color:#003380;
+	font-weight:bold;
+}
